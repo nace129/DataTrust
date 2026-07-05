@@ -116,26 +116,18 @@ curl http://localhost:8000/health
 # Frontend runs at http://localhost:5173
 # Demo route: http://localhost:5173/demo
 
-Future Improvements
-Add automated unit and integration tests for policy decisions, retrieval authorization filters, Auth0 mapping, and output redaction.
 
-Gate the X-User-Id demo fallback so it is only available in development or demo mode.
-
-Replace hardcoded model names with environment-driven model configuration.
-
-Add a formal evaluation suite with labeled allowed, blocked, redacted, and out-of-scope prompts.
-
-Add fine-grained document-level and group-level permissions beyond department and auth rank.
-
-Add a /me endpoint so the frontend can use backend-derived admin status instead of hardcoded email checks.
-
-Add Docker Compose and database seed scripts for easier local setup.
-
-Improve observability with structured logs, request IDs, latency metrics, block-rate metrics, and retrieval-quality dashboards.
-
-Add optional reranking and configurable context-window limits for better answer quality.
-
-Expand shadow AI detection with more labeled examples and configurable enterprise policy rules.
+**##Future Improvements**
+-Add automated unit and integration tests for policy decisions, retrieval authorization filters, Auth0 mapping, and output redaction.
+-Gate the X-User-Id demo fallback so it is only available in development or demo mode.
+-Replace hardcoded model names with environment-driven model configuration.
+-Add a formal evaluation suite with labeled allowed, blocked, redacted, and out-of-scope prompts.
+-Add fine-grained document-level and group-level permissions beyond department and auth rank.
+-Add a /me endpoint so the frontend can use backend-derived admin status instead of hardcoded email checks
+-Add Docker Compose and database seed scripts for easier local setup.
+-Improve observability with structured logs, request IDs, latency metrics, block-rate metrics, and retrieval-quality dashboards.
+-Add optional reranking and configurable context-window limits for better answer quality.
+-Expand shadow AI detection with more labeled examples and configurable enterprise policy rules.
 
 Author
 Nidhi Shah — linkedin.com/in/nidhishah4065 · github.com/nace129
